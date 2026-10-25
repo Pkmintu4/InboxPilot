@@ -1,3 +1,28 @@
+## Installation and Setup
+
+### Prerequisites
+- A Google account with Gmail and Google Calendar.
+- Access to Google Apps Script.
+- The project's `Code.gs` file.
+
+### Steps
+
+1. Open [Google Apps Script](https://script.google.com/).
+2. Create a new project named `InboxPilot`.
+3. Copy the contents of `Code.gs` into the script editor.
+4. Save the project.
+5. Run the setup function specified in the source code to configure the automation.
+6. Review and grant the requested Google permissions.
+7. Verify that the time-driven trigger is installed successfully.
+8. Open Google Calendar and check that reminders are created when qualifying emails are found.
+
+### Important Notes
+
+- Function names and setup steps depend on the implementation in `Code.gs`.
+- Review the requested permissions before authorizing the script.
+- Test with non-sensitive emails before relying on the automation.
+- Never share your Google account credentials or private email content.
+  
 # InboxPilot — Smart Gmail Follow-up & Reminder Automation
 
 InboxPilot is a free, automated email productivity system built using Google Apps Script, Gmail, and Google Calendar. It periodically scans email conversations to identify messages that may require a response or follow-up and creates calendar reminders so important tasks don't get forgotten.
